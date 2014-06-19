@@ -9,13 +9,13 @@
     <link href="../assets/css/stylesheet.css" rel="stylesheet" media="screen" type="text/css">
     <link href="../assets/css/js/jquery.js" rel="script" media="screen">
 </head>
-<body><!---->
+<body><!--
 <nav class="navbar navbar-default" role="navigation">
     <div class="collapse navbar-collapse">
         <?php echo $this->get_data(); ?>
     </div>
 </nav>
-
+-->
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" data-target="#yw2" type="button">
@@ -28,7 +28,7 @@
     <div class="collapse navbar-collapse" id="yw2">
         <ul id="yw1" class="navbar-right nav navbar-nav" role="menu">
             <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="/user/registration/#">Guest <b class="caret"></b></a>
+                <a class="dropdown-toggle" data-toggle="dropdown" href="/user/registration/#">ADIMN <b class="caret"></b></a>
                 <ul class="dropdown-menu" id="yt1" aria-labelledby="yt1" role="menu">
                     <li visible="1"><a tabindex="-1" href="/user/login">
                             <span class="glyphicon glyphicon-log-in"></span> Login</a></li></ul></li></ul></div></nav>
