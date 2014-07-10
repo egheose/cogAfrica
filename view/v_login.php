@@ -22,8 +22,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button><a class="navbar-brand" href="/">COG AFRICA</a>
-        <a class="navbar-brand"><?php echo $this->get_data(); ?></a>
+        </button>
+        <?php echo $this->get_data(); ?>
     </div>
     <div class="collapse navbar-collapse" id="yw2">
         <ul id="yw1" class="navbar-right nav navbar-nav" role="menu">

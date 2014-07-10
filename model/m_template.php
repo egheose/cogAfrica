@@ -29,8 +29,9 @@ class Template
         if(isset($this->data))
         {
             echo '<ul class="navbar-left nav navbar-nav">';
+            echo '<li><a class="navbar-brand" href="/">COG AFRICA</a></li>';
             for($i=0;$i<count($this->data);$i++){
-                print_r('<li>' .$this->data[$i] . "&nbsp;&nbsp;&nbsp;&nbsp;" .'</li>');
+                print_r('<li><a class="navbar-brand" href="/' .$this->data[$i] .'" >' .$this->data[$i] .'</a></li>');
             }
             echo '</ul>';
         }
