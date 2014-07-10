@@ -88,7 +88,7 @@
 </div>
 
 <div class="panel-footer text-center">
-    &copy; Atom 2014
+    &copy; COG 2014
 </div>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript">

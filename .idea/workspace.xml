@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69dced35-a826-491f-9815-5dc36c6888b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/m_template.php" afterPath="$PROJECT_DIR$/model/m_template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/v_login.php" afterPath="$PROJECT_DIR$/view/v_login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -31,7 +29,7 @@
       <file leaf-file-name="v_login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/v_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.1773399" vertical-offset="0" max-vertical-offset="1980">
+            <state line="86" column="0" selection-start="6439" selection-end="6439" vertical-scroll-proportion="0.29064038" vertical-offset="1371" max-vertical-offset="1980">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -235,6 +233,11 @@
       <created>1402773094897</created>
       <updated>1402773094897</updated>
     </task>
+    <task id="LOCAL-00001" summary="modified view">
+      <created>1404988548309</created>
+      <updated>1404988548309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -275,7 +278,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="modified view" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -491,7 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/v_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="225" selection-end="225" vertical-scroll-proportion="0.1773399" vertical-offset="0" max-vertical-offset="1980">
+        <state line="86" column="0" selection-start="6439" selection-end="6439" vertical-scroll-proportion="0.29064038" vertical-offset="1371" max-vertical-offset="1980">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
