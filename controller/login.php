@@ -17,7 +17,6 @@ class login
     //Set and Get data
     function set_data()
     {
-        //$this->data[$name]=htmlentities($value,ENT_QUOTES);
         $this->data = array(
             'Home',
             'About',

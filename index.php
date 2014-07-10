@@ -1,11 +1,27 @@
 <?php
+$url = $_GET['url'];
+$url = rtrim($url, '/');
+$url = explode('/', $url);
 
-$url = explode('/',$_GET['url']);
+echo $url[0];
 
-print_r($url);
+$file = 'controller/' .$url[0] .'.php' ;
+if(file_exists($file))
+{
+    require $file;
+}
 
-require 'controller/' .$url[0] .'.php' ;
 $controller = new $url[0];
-$Template = new login();
-$Template->set_data();
-$Template->load("./view/v_login.php");
+$controller->set_data();
+$controller->load("./view/v_login.php");
+
+if (isset($url[2]))
+{
+    $controller->{$url[1]}($url[2]);
+}else
+{
+    if(isset($url[1]))
+    {
+        $controller->{$url[1]}();
+    }
+}
