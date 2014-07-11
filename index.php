@@ -1,26 +1,27 @@
 <?php
-$url = $_GET['url'];
-$url = rtrim($url, '/');
-$url = explode('/', $url);
+//$url = $_GET['url'];
+//$url = rtrim($url, '/');
+//$url = explode('/', $url);
 
-print_r($url[0]) ;
+//print_r($url) ;
 
-$file = 'controller/' .$url[0] .'.php' ;
-if(file_exists($file))
+require './controller/login.php';// .$url .'.php' ;
+/*if(file_exists($file))
 {
     require $file;
-}
-
-$controller = new $url[0];
+}*/
+//require $file;
+$controller = new login();
 $controller->set_data();
 $controller->load("./view/v_login.php");
 
-if (isset($url[2]))
+if (isset($url))
 {
-    $controller->{$url[1]}($url[2]);
+   // $controller->{$url[1]}($url[2]);
+    $controller->$url();
 }else
 {
-    if(isset($url[1]))
+    if(isset($url))
     {
         $controller->{$url[1]}();
     }
