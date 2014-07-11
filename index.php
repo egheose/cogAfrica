@@ -3,7 +3,7 @@ $url = $_GET['url'];
 $url = rtrim($url, '/');
 $url = explode('/', $url);
 
-echo $url[0];
+print_r($url[0]) ;
 
 $file = 'controller/' .$url[0] .'.php' ;
 if(file_exists($file))
