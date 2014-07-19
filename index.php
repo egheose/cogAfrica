@@ -1,28 +1,19 @@
 <?php
-//$url = $_GET['url'];
-//$url = rtrim($url, '/');
-//$url = explode('/', $url);
+error_reporting(0);
+$url = $_GET['url'];
 
-//print_r($url) ;
-
-require './controller/login.php';// .$url .'.php' ;
-/*if(file_exists($file))
-{
-    require $file;
-}*/
-//require $file;
-$controller = new login();
-$controller->set_data();
-$controller->load("./view/v_login.php");
-
-if (isset($url))
-{
-   // $controller->{$url[1]}($url[2]);
-    $controller->$url();
-}else
-{
-    if(isset($url))
-    {
-        $controller->{$url[1]}();
-    }
+if (empty($url)) {
+    // no data passed by get
+    $url = 'login';
 }
+//print_r($url) ;
+$file = './controller/' .$url .'.php';
+//require './controller/login.php';
+if(file_exists($file))
+{
+    include ($file);
+    $controller = new $url();
+    //$controller->set_data();
+    $controller->load("./view/" .$url .".php");
+}
+else{ echo 'File not found';  }

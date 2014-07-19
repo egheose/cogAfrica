@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head>
     <title>Welcome to DYPM</title>
@@ -13,7 +13,7 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="collapse navbar-collapse">
         <?php echo $this->get_data(); ?>
-    </div>
+</div>
 </nav>
 -->
 <nav class="navbar navbar-default" role="navigation">
