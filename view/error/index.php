@@ -16,14 +16,12 @@
             <button class="navbar-toggle" data-toggle="collapse" data-target="#yw1" type="button">
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-            <?php echo $this->get_data(); ?>
 </div><div class="collapse navbar-collapse" id="yw1"></div></nav>
 <!-- Page Content-->
 <div class="container">
     <div class="main_header text-center">
-        <h3><strong>Login</strong></h3>
+        <h3><strong><font color=#1e90ff>404 ERROR</font></strong></h3>
 
         <div class="clearfix"></div>
     </div>
-
-<h1><font color=#1e90ff>404 Error - Page not Found</font></h1>
+    <?php echo $this->msg; ?>

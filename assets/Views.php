@@ -6,6 +6,6 @@ class view
     }
 
     public function render($name){
-        require '/view/' .$name .'.php';
+        require 'view/' .$name .'.php';
     }
 }
