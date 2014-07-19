@@ -1,11 +1,12 @@
 <?php
 //Displaying views etc
 
-class login
+class login extends controller
 {
     private $data;
     //constructor (its doing nothing for now)
     function __construct(){
+        parent::__construct();
         $this->set_data();
     }
 

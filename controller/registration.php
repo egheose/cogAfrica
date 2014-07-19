@@ -1,9 +1,9 @@
 <?php
-class registration
+class registration extends controller
 {
     private $data;
     function __construct(){
-
+        parent::__construct();
         $this->set_data();
     }
 
