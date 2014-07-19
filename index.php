@@ -12,4 +12,5 @@ if(file_exists($file))
     //$controller->set_data();
     $controller->load("./view/" .$url .".php");
 }
-else{ echo 'File not found'; echo $file;  }
+else{ echo 'File not found'; }
+echo $file;
