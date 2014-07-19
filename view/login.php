@@ -5,14 +5,19 @@
     <link href="./assets/css/jquery-ui.css" rel="stylesheet" media="screen" type="text/css">
     <link href="./assets/css/stylesheet.css" rel="stylesheet" media="screen" type="text/css">
     <link href="./assets/css/js/jquery.js" rel="script" media="screen">
-    <title>ATOM  - Login</title>
+    <title>COG  - Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div class="wrapper">
 
     <!-- Nav bar -->
-    <nav style="z-index: 10;" class="navbar navbar-default" role="navigation"><div class="navbar-header"><button class="navbar-toggle" data-toggle="collapse" data-target="#yw1" type="button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="/">ATOM</a></div><div class="collapse navbar-collapse" id="yw1"></div></nav>
+    <nav style="z-index: 10;" class="navbar navbar-default" role="navigation"><div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#yw1" type="button">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <?php echo $this->get_data(); ?>
+        </div><div class="collapse navbar-collapse" id="yw1"></div></nav>
     <!-- Page Content-->
     <div class="container">
         <div class="main_header text-center">
@@ -71,7 +76,7 @@
     &nbsp;
 </div>
 <div class="panel-footer text-center">
-    &copy; Atom 2014
+    &copy; COG 2014
 </div>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 </body>
