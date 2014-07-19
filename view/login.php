@@ -45,7 +45,7 @@
 
                                 <div class="form-group">
                                     <p class="hint">
-                                        <a href="/test/registration">Register</a> | <a href="/user/recovery">Lost Password?</a>                    </p>
+                                        <a href="/cogAfrica/registration">Register</a> | <a href="/user/recovery">Lost Password?</a>                    </p>
                                 </div>
 
                                 <div class="buttons">
