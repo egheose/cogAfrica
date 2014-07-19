@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 class Bootstrap {
     function __construct(){
 //get link url(controller) from browser
