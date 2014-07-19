@@ -2,10 +2,6 @@
 error_reporting(0);
 $url = $_GET['url'];
 
-if (empty($url)) {
-    // no data passed by get
-    $url = 'login';
-}
 //print_r($url) ;
 $file = './controller/' .$url .'.php';
 //require './controller/login.php';
