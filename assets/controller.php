@@ -4,6 +4,6 @@ class Controller
     function __construct()
     {
         //echo 'Main Controller';
-        $this->Views = new view();
+        $this->view = new view();
     }
 }
