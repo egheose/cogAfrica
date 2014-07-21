@@ -5,6 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color: #d9edf7;
 }
 
 .wrapper {
@@ -18,7 +19,7 @@ html, body {
     border-radius: 0;
     border: none;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color: #325d88;
+    background-color: #07212E;/*#325d88;*/
     line-height: 30px;
 }
 
@@ -62,6 +63,7 @@ div.logo {
     /*font-size: 38px;*/
     /*line-height: 40px;*/
     color: #FFFFFF !important;
+    /*color: #e4b9c0 !important;*/
 }
 
 b.ktalk {
@@ -1134,6 +1136,7 @@ b.diamonds {
 
 .panel {
     border-radius: 0;
+    background-color: #d9edf7;
 }
 
 .list-group li {
