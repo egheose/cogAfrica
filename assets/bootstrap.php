@@ -1,11 +1,11 @@
 <?php
-error_reporting(0);
+error_reporting(0);//comment out when in dev to see errors
 class Bootstrap {
     function __construct(){
 //get link url(controller) from browser
        $url = $_GET['url'];
 
-//if url not set by user, set it to login
+//if url not set by user, set it to login page
         if(empty($url))
         {
             $url = 'login';
