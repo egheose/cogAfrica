@@ -3,12 +3,7 @@
 <head>
     <title>Welcome to DYPM</title>
     <meta http-equiv="content-type" charset="utf-8" content="text/html">
-    <!--<link href="style.css" rel="stylesheet" media="screen" type="text/css"> -->
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/jquery-ui.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/stylesheet.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/js/jquery.js" rel="script" media="screen">
-</head>
+   </head>
 <body><!--
 <nav class="navbar navbar-default" role="navigation">
     <div class="collapse navbar-collapse">
@@ -54,25 +49,25 @@
                             <div id="registration-form_es_" class="errorSummary" style="display:none"><p>Please fix the following input errors:</p>
                                 <ul><li>dummy</li></ul></div>
                             <div class="form-group float-label-control">
-                                <label class="control-label required" for="RegistrationForm_username">username <span class="required">*</span></label>            <input class="form-control" placeholder="Username" name="RegistrationForm[username]" id="RegistrationForm_username" type="text" maxlength="20" />            <div id="RegistrationForm_username_em_" class="errorMessage" style="display:none"></div>            </div>
+                                <label class="control-label required" for="RegistrationForm_username">Firstname: <span class="required">*</span></label>            <input class="form-control" placeholder="firstname" name="RegistrationForm[username]" id="RegistrationForm_username" type="text" maxlength="20" />            <div id="RegistrationForm_username_em_" class="errorMessage" style="display:none"></div>            </div>
 
                             <div class="form-group float-label-control">
-                                <label class="control-label required" for="RegistrationForm_password">password <span class="required">*</span></label>            <input class="form-control" placeholder="Password" name="RegistrationForm[password]" id="RegistrationForm_password" type="password" maxlength="128" />            <div id="RegistrationForm_password_em_" class="errorMessage" style="display:none"></div>            <p class="hint">
+                                <label class="control-label required" for="RegistrationForm_password">Lastname: <span class="required">*</span></label>            <input class="form-control" placeholder="lastname" name="RegistrationForm[password]" id="RegistrationForm_password" type="password" maxlength="128" />            <div id="RegistrationForm_password_em_" class="errorMessage" style="display:none"></div>            <p class="hint">
                                     Minimal password length 4 symbols.            </p>
                             </div>
 
                             <div class="form-group float-label-control">
-                                <label class="control-label required" for="RegistrationForm_verifyPassword">Retype Password <span class="required">*</span></label>            <input class="form-control" placeholder="Re-type Password" name="RegistrationForm[verifyPassword]" id="RegistrationForm_verifyPassword" type="password" />            <div id="RegistrationForm_verifyPassword_em_" class="errorMessage" style="display:none"></div>            </div>
+                                <label class="control-label required" for="RegistrationForm_verifyPassword">Date of Birth: <span class="required">*</span></label>            <input class="form-control" placeholder="Date of Birth" name="RegistrationForm[verifyPassword]" id="RegistrationForm_verifyPassword" type="password" />            <div id="RegistrationForm_verifyPassword_em_" class="errorMessage" style="display:none"></div>            </div>
 
                             <div class="form-group float-label-control">
                                 <label class="control-label required" for="RegistrationForm_email">E-mail <span class="required">*</span></label>            <input class="form-control" placeholder="Email" name="RegistrationForm[email]" id="RegistrationForm_email" type="text" />            <div id="RegistrationForm_email_em_" class="errorMessage" style="display:none"></div>            </div>
 
                             <div class="form-group float-label-control">
-                                <label class="control-label required" for="Profile_firstname">First Name <span class="required">*</span></label>                <input size="60" maxlength="50" class="form-control" placeholder="firstname" name="Profile[firstname]" id="Profile_firstname" type="text" value="" />                <div id="Profile_firstname_em_" class="errorMessage" style="display:none"></div>            </div>
+                                <label class="control-label required" for="Profile_firstname">PhoneNumber1: <span class="required">*</span></label>                <input size="60" maxlength="50" class="form-control" placeholder="PhoneNumber1" name="Profile[firstname]" id="Profile_firstname" type="text" value="" />                <div id="Profile_firstname_em_" class="errorMessage" style="display:none"></div>            </div>
                             <div class="form-group float-label-control">
-                                <label class="control-label required" for="Profile_lastname">Last Name <span class="required">*</span></label>                <input size="60" maxlength="50" class="form-control" placeholder="lastname" name="Profile[lastname]" id="Profile_lastname" type="text" value="" />                <div id="Profile_lastname_em_" class="errorMessage" style="display:none"></div>            </div>
+                                <label class="control-label required" for="Profile_lastname">PhoneNumber2: <span class="required">*</span></label>                <input size="60" maxlength="50" class="form-control" placeholder="PhoneNumber2" name="Profile[lastname]" id="Profile_lastname" type="text" value="" />                <div id="Profile_lastname_em_" class="errorMessage" style="display:none"></div>            </div>
                             <div class="form-group float-label-control">
-                                <label class="control-label" for="Profile_birthday">Birthday</label>                <input size="60" maxlength="10" id="Profile_birthday" name="Profile[birthday]" type="text" value="0000-00-00" />                <div id="Profile_birthday_em_" class="errorMessage" style="display:none"></div>            </div>
+                                <label class="control-label required" for="Profile_birthday">Birthday <span class="required">*</span> </label>                <input size="60" maxlength="10" class="form-control" placeholder="PhoneNumber2" id="Profile_birthday" name="Profile[birthday]" type="text" value="" />                <div id="Profile_birthday_em_" class="errorMessage" style="display:none"></div>            </div>
 
                             <div class="buttons submit">
                                 <input class="btn btn-lg btn-success btn-block" type="submit" name="yt0" value="Register" />            </div>

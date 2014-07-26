@@ -6,7 +6,7 @@ class Bootstrap {
        $url = isset($_GET['url']) ? $_GET['url'] : null;
        $url = rtrim($url,'/');
        $url = explode('/',$url);
-        print_r($url);
+       //print_r($url);
 
 //if url not set by user, set it to login page
         if(empty($url[0]))
@@ -36,7 +36,7 @@ class Bootstrap {
         if(isset($url[2])){
             if(function_exists($url[1]))
             {
-                $controller->{$url[1]}($url[2]);
+                $controller->load("./view/" .$url[0] .".php");
             }
 
         }

@@ -12,4 +12,7 @@ class home extends controller
         parent::__construct();
         $this->view->render('user/home');
     }
+    function load(){
+
+    }
 } 
