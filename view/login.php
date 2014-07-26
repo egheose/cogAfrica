@@ -46,7 +46,7 @@
 
                                 <div class="form-group">
                                     <p class="hint">
-                                        <a href="registration">Register</a> | <a href="/user/recovery">Lost Password?</a>                    </p>
+                                        <a href="registration">Register</a> | <a href="recovery">Lost Password?</a>                    </p>
                                 </div>
 
                                 <div class="buttons">
