@@ -8,5 +8,9 @@
 
 class model{
     function __construct(){
-        echo 'base model';    }
+        //echo 'base model';
+    }
+    public function render($name){
+        require 'model/' .$name .'.php';
+    }
 }

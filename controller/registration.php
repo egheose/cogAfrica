@@ -30,7 +30,7 @@ class registration extends controller
             echo '<ul class="navbar-left nav navbar-nav">';
             echo '<li><a class="navbar-brand" href="/cogAfrica/">COG AFRICA</a></li>';
             for($i=0;$i<count($this->data);$i++){
-                print_r('<li><a class="navbar-brand" href="controller/' .$this->data[$i] .'" >' .$this->data[$i] .'</a></li>');
+                print_r('<li><a class="navbar-brand" href="' .strtolower($this->data[$i]) .'" >' .$this->data[$i] .'</a></li>');
             }
             echo '</ul>';
         }

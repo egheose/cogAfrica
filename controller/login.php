@@ -8,9 +8,11 @@ class login extends controller
     function __construct(){
         parent::__construct();
         $this->set_data();
+
+        //$this->view->render('login');
     }
 
-    //Functions
+    //Functions loads thr login
     function load($url)
     {
         include($url);
@@ -24,6 +26,7 @@ class login extends controller
             '',
             '',
         );
+        //$this->other();//Calling the other function
     }
     function get_data()
     {
@@ -32,7 +35,7 @@ class login extends controller
             echo '<ul class="navbar-left nav navbar-nav">';
             echo '<li><a class="navbar-brand" href="/cogAfrica/">COG AFRICA</a></li>';
           for($i=0;$i<count($this->data);$i++){
-                print_r('<li><a class="navbar-brand" href="controller/' .$this->data[$i] .'" >' .$this->data[$i] .'</a></li>');
+                print_r('<li><a class="navbar-brand" href="' .$this->data[$i] .'" >' .$this->data[$i] .'</a></li>');
             }
 
             echo '</ul>';
@@ -42,4 +45,12 @@ class login extends controller
             return "Inside Else Block";
         }
     }
+    /** Function calling the login model*/
+    /*
+    function other($args=false){
+        echo 'we are inside other <br>';
+        require 'model/login_model.php';
+        $model = new login_model();
+    }
+     */
 }

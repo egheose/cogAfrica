@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/jquery-ui.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/stylesheet.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/js/jquery.js" rel="script" media="screen">
     <title>COG  - Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -37,7 +33,7 @@
                         <h3 class="text-primary">Please fill out the following form with your login credentials:</h3>
 
                         <div class="form">
-                            <form id="login-form" action="/user/login" method="post">
+                            <form id="login-form" action="user/login" method="post">
                                 <h6 class="note text-warning"><em>Fields with <span class="required">*</span> are required.</em></h6>
 
                                 <h6 style="color: #ff0000"> </h6>
@@ -50,7 +46,7 @@
 
                                 <div class="form-group">
                                     <p class="hint">
-                                        <a href="/cogAfrica/registration">Register</a> | <a href="/user/recovery">Lost Password?</a>                    </p>
+                                        <a href="registration">Register</a> | <a href="/user/recovery">Lost Password?</a>                    </p>
                                 </div>
 
                                 <div class="buttons">

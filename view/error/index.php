@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/jquery-ui.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/stylesheet.css" rel="stylesheet" media="screen" type="text/css">
-    <link href="./assets/css/js/jquery.js" rel="script" media="screen">
-    <title>COG  - Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -16,6 +11,10 @@
             <button class="navbar-toggle" data-toggle="collapse" data-target="#yw1" type="button">
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
+            <?php echo '<ul class="navbar-left nav navbar-nav">';
+            echo '<li><a class="navbar-brand" href="/cogAfrica/">COG AFRICA</a></li>';
+            echo '</ul>';
+            ?>
 </div><div class="collapse navbar-collapse" id="yw1"></div></nav>
 <!-- Page Content-->
 <div class="container">
