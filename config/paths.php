@@ -1,3 +1,3 @@
 <?php
 
-define("UR", "/cogAfrica/");
+define("UR", "http://localhost/cogAfrica/");
