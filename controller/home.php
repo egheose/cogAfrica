@@ -1,18 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: root
- * Date: 7/26/14
- * Time: 1:54 PM
- */
-
-class home extends controller
+class home extends Controller
 {
     function __construct(){
         parent::__construct();
         $this->view->render('user/home');
     }
-    function load(){
 
-    }
 } 

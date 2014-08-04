@@ -1,6 +1,5 @@
 <?php
-class Error extends controller {
-    private $data;
+class Error extends Controller {
     function __construct(){
         parent::__construct();
         $this->view->msg = 'This page doesnt exist';

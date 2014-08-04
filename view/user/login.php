@@ -12,7 +12,11 @@
             <button class="navbar-toggle" data-toggle="collapse" data-target="#yw1" type="button">
                 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
             </button>
-            <?php echo $this->get_data(); ?>
+
+            <?php echo '<ul class="navbar-left nav navbar-nav">';
+            echo '<li><a class="navbar-brand" href="/cogAfrica/">COG AFRICA</a></li>';
+            echo '</ul>';
+            ?>
         </div><div class="collapse navbar-collapse" id="yw1"></div></nav>
     <!-- Page Content-->
     <div class="container">

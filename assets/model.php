@@ -8,7 +8,7 @@
 
 class model{
     function __construct(){
-        //echo 'base model';
+        $this->db = new Database();
     }
     public function render($name){
         require 'model/' .$name .'.php';
