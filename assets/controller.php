@@ -4,7 +4,7 @@ class Controller
     private $data;
     function __construct()
     {
-        echo 'Main Controller';
+        //echo 'Main Controller';
         //$this->set_data();
         $this->view = new view();
     }
